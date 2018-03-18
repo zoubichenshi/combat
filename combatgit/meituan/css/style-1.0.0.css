@@ -1,0 +1,263 @@
+html{
+	font-size: 625%;	
+}
+body{
+	font-size: .16rem;
+	background: #f0efed;
+	padding-bottom:  0.5rem;
+}
+/*头部*/
+.navbar{
+	height: .5rem;
+    color: #fff;
+    background: #06c1ae;
+    border-bottom: 1px solid #21897d;
+    display:flex; 
+}
+.nav_wrap_left{
+	height: .5rem;
+	line-height: .5rem;
+	width: .675rem;
+}
+
+.nav_wrap_left a{
+	padding: .09rem;
+	color: #fff;
+	font-size: .16rem;
+}
+.go_search{
+	display: flex;
+	align-items: center;
+	position: relative;
+	flex: 1;	
+    height: .32rem;
+    line-height: .32rem;
+   	margin-top:.1rem;
+}
+
+.navbar .search{
+    border-radius: .06rem;
+    background: rgba(0,0,0,.15);
+    border: 0;
+    outline: none;  
+    padding-left: .25rem;
+    color: #F5F5F5;
+    height: 100%;
+    width: 100%;
+}
+.go_search .mirro{
+	position: absolute;
+	left: .05rem;
+	
+}
+
+.navbar .mine{
+	width: .49rem;
+	margin-top:.05rem;	
+}
+.mine a{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	font-size: .12rem;
+	color: #fff;
+	
+	
+}
+.mine a i{
+	font-size: .25rem;
+}
+
+
+/*广告*/
+.ad{
+	height: .5rem;
+}
+
+.ad  a{
+	display: block;
+	text-align: center;
+}
+.ad a img{
+	width: 3.2rem;
+}
+
+
+/*轮播图*/
+.swiper-container{
+	background: #fff;
+}
+.swiper-container .swiper-wrapper{
+	height: 1.8rem;
+}
+.swiper-wrapper .list_con{
+	display: flex;
+	flex-wrap: wrap;
+}
+.list_con li{
+	width: 20%;
+	text-align: center;
+}
+.list_con li a{
+	display: flex;
+	flex-direction: column;	
+	height:.8rem;
+}
+.list_con li .meishi{
+	display: block;
+    margin: auto;
+    margin-bottom: .07rem;
+    width: .4rem;
+    height: .4rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .4rem;
+    font-size: .25rem;
+    color: #fff;
+	
+}
+.list_con li .icon-desc{
+	text-align: center;
+    font-size: .12rem;
+    color: #666;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+opacity: 1;
+background-color: #06c1ae;
+}
+
+
+/*轮播图下的约吧*/
+.wrapper{
+	border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .1rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.daogou{	
+    display: flex;   
+    height: 1.13rem;
+    padding: .06rem;
+}
+.daogou li{
+	text-align: center;
+	width: 33%;
+	border-right:1px solid #eee;
+}
+.daogou li a{
+	display: flex;
+	flex-direction: column;	
+}
+.daogou li a .yue_con{
+	display: flex;
+	flex-direction: column;	
+    text-align: center;
+}
+.yue_con strong{
+	color: #55a40f;
+    font-size: .15rem;
+    font-weight: 900;
+    margin-bottom: .12rem;
+}
+.yue_con em{
+	color: #666;
+    font-size: .12rem;   
+}
+
+.daogou .yue_pic img{
+	width: .62rem;
+	height: .62rem;
+}
+
+
+/*猜你喜欢*/
+.guess_wrapper{
+	border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .1rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    min-height: 2.5rem;
+    position: relative;
+}
+.guess_wrapper .guess_con{
+	padding-left: .1rem;
+}
+.guess_con dt{
+	font-size: .16rem;   
+    color: #333;
+    line-height: .4rem;
+    border-bottom: 1px solid #ccc;
+}
+.guess_con dd{
+	border-bottom: 1px solid #eee;
+}
+.guess_con dd a{
+	padding: .14rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+.guess_con dd a .guess_pic img{
+	width: .9rem;
+	height: .9rem;
+}
+.guess_con dd a .product_list{
+	display: flex;
+	flex:1;
+	flex-direction: column;
+	padding-left: .1rem;
+	position: relative;
+}
+.product_list .shop{
+    margin-bottom: .05rem;
+    font-size: .15rem;
+    color: #333;
+}
+.product_list .pro_title{
+    margin-bottom: .25rem;
+    font-size: .12rem;
+    color: #666;
+}
+.product_list .list_price{
+    font-size: .18rem;
+    color: #06c1ae;
+}
+.product_list .city_price{
+    font-size: .12rem;
+    color: #666;
+}
+.product_list .sale_count{
+    font-size: .12rem;
+    color: #666;
+    position: absolute;
+    right:.08rem;
+    bottom: .06rem;
+}
+
+
+.guess_wrapper .all_buy{
+	height: .4rem;  
+    display: flex;
+    border-top:1px solid #eee;
+    box-sizing: border-box;
+    position: relative;
+}
+.guess_wrapper .all_buy a{
+	display: flex;
+	align-items: center;
+	padding: 0 .1rem;
+	font-size: .14rem;
+    color: #06c1ae;
+}
+.guess_wrapper .all_buy a i{
+	position: absolute;
+	right: .2rem;
+    bottom: .1rem;
+    font-weight: 900;
+}
+
+
+

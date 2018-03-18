@@ -1,0 +1,521 @@
+.head-nav .classify{
+	position: absolute;
+	top: 39px;
+	left: 31px;
+	width: 200px;
+	z-index: 1;
+	display: none;
+}
+/*商品列表*/
+.catalogue-cantian-warrp{
+	width: 100%;
+	overflow: hidden;
+}
+.catalogue-cantian-warrp .catalogue-cantian{
+	width: 100%;
+	overflow: hidden;
+	padding-left: 20px;
+}
+.catalogue-cantian .cantian-top{
+	font-family: '微软雅黑';
+    line-height: 22px;
+    height: 22px;
+    padding: 12px 100px 12px 0px;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 14px;
+    color: #373a40;
+}
+.cantian-top ul li{
+	float: left;
+	margin-right: 15px;
+}
+.cantian-top p{
+	float: right;
+}
+.cantian-top p .number{
+	color: #f00f34;
+	padding: 0 5px;
+}
+.catalogue-cantian .cantian-bottom{
+	padding-top: 16px;
+	margin-top: 2px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	
+}
+.cantian-bottom .cantian-left{
+	float: left;
+	width: 180px;
+}
+.cantian-left .menu{
+	width: 180px;
+	margin-top: 5px;
+}
+.cantian-left .menu h1{
+	height: 14px;
+    padding-left: 9px;
+    line-height: 14px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+}
+.menu .menu-title{
+    position: relative;
+    background: #fff;
+}
+.menu .menu-title h3{
+    overflow: hidden;
+    height: 14px;
+    line-height: 14px;
+    padding-left: 12px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.menu .menu-title h3 em {
+    border-top: 5px solid transparent;
+    border-left: 5px solid #333;
+    border-bottom: 5px dashed transparent;
+    display: inline-block;
+    margin-right: 12px;
+}
+.menu .menu-title h3 em:hover{
+	border-top: 5px solid #333;
+    border-left: 5px solid transparent;
+    border-right: 5px dashed transparent;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+#refilter .item b {
+    border-top: 5px solid transparent;
+    border-left: 5px solid #333;
+    border-bottom: 5px dashed transparent;
+    display: inline-block;
+    margin-right: 12px;
+}
+.menu .menu-title h3 a{
+    color: #333;
+    font-weight: bold;
+}
+.menu-title .menu-list{
+	display: none;
+	background: magenta;
+}
+.menu-title .menu-list li {
+    height: 13px;
+    line-height: 12px;
+    padding-left: 28px;
+    padding-top: 1px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}	
+.cantian-left .list-best {
+    width: 180px;
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+    margin: 0 0 25px 0;
+}
+.list-best h2 ,.see-more h2 {
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 33px;
+    text-align: center;
+    font-size: 13px;
+    color: #333;
+}
+.list-best ul{
+    padding: 11px;
+}
+.list-best ul a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.list-best ul a img {
+    display: inline-block;
+    width: 69px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.list-best ul a .name-line{
+    font-size: 12px;
+    height: 32px;
+    color: #666666;
+    position: absolute;
+    top: 0;
+    left: 74px;
+    overflow: hidden;
+    white-space: pre-wrap;
+    width: 100%;
+    width: 101px;
+    line-height: 16px;
+    text-overflow: ellipsis;
+}
+.list-best ul a .price-line{
+    font-size: 12px;
+    color: #cc3333;
+    line-height: 12px;
+    position: absolute;
+    left: 74px;
+    bottom: 0;
+}
+.cantian-left .see-more {
+    width: 180px;
+    border: 1px solid #e1e1e1;
+    margin: 0;
+}
+.cantian-left .see-more ul {
+    padding: 11px;
+}
+.cantian-left .see-more ul a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cantian-left .see-more ul a img {
+    width: 121px;
+    height: 113px;
+    margin: 5px 0 8px 0;
+    display: inline-block;
+}
+.cantian-left .see-more ul a .see-name {
+    text-align: left;
+    font-size: 12px;
+    line-height: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+.cantian-left .see-more ul a p{
+	text-align: left;
+}
+.cantian-left .see-more ul a .see-price{
+    text-align: left;
+    font-size: 12px;
+    color: #cc3333;
+    line-height: 30px;
+     margin-right: 30px;
+}
+.cantian-left .see-more ul a .see-comment {
+    font-size: 10px;
+    color: #666666;
+    display: inline-block;
+    line-height: 20px;
+}
+.cantian-left .see-more ul a .see-comment em {
+    color: #cc3333;
+    font-size: 12px;
+    padding: 0 5px;
+}
+.cantian-bottom .cantian-right{
+	float: left;
+	margin-left: 20px;
+	width: 1027px;
+}
+/*菜单列表*/
+.cantian-right .cantian-menu{
+	border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    background: #f8f9f8;
+    margin-bottom: 20px;
+    padding:0 15px;
+    overflow: hidden;
+}
+.cantian-menu .catalogue-logo{
+	height: 84px;
+	vertical-align: middle;
+}
+.cantian-menu .catalogue-logo span{
+	float: left;
+	line-height: 84px;
+	display: inline-block;
+    width: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 15px;
+    font-size: 12px;
+}
+.cantian-menu .catalogue-logo ul{
+	float: left;
+	width: 912px;
+	border-bottom: 1px dotted #dcdcdc;
+    overflow: hidden;
+    height: 100%;
+}
+.cantian-menu .catalogue-logo ul li{
+	margin-top: 22px;
+	margin-right: 8px;
+	float: left;
+	border: 1px dotted #dbdbdb;
+	width: 110px;
+	height: 38px;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+.cantian-menu .catalogue-logo ul li a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    background: #fff;
+}
+.cantian-menu .catalogue-logo ul li img{
+	height: 38px;
+}
+.cantian-menu .catalogue-logo ul li .logomask{
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 112px;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #F00F34;
+	color: #F00F34;
+	font: 900 14px/38px "微软雅黑";
+	text-align: center;
+	display: none;
+}
+.catalogue-type  .type-item{
+	float: left;
+	margin-right: 15px;
+}
+.cantian-menu .catalogue-logo ul li:hover .logomask{
+	display: block;
+}
+.catalogue-type  .type-item ul li{
+	line-height: 52px;
+	width:70px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+.catalogue-type .type-list{
+	float: left;
+	width: 912px;
+	color: #969896;
+}
+.catalogue-type .type-list ul{
+	padding: 12px 0px;
+	float: left;
+	width: 912px;
+	border-bottom: 1px dotted #dcdcdc;
+    overflow: hidden;
+}
+.catalogue-type .type-list ul li{
+	cursor: pointer;
+	float: left;
+	margin-right: 30px;
+	line-height: 26px;
+	font-size: 13px;
+}
+.cantian-right .menu-nav{
+	height: 46px;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	padding: 1px 0;
+}
+.menu-nav .menu-border{
+	height: 28px;
+	overflow: hidden;
+	padding: 8px 20px 8px 15px;
+	border-top: 1px dotted #dbdbdb;
+	border-bottom: 1px dotted #dbdbdb;
+}
+.menu-nav .menu-border ul li{
+	float: left;
+	line-height: 26px;
+	position: relative;
+	padding: 0px 40px;
+	cursor: pointer;
+}
+.menu-nav .menu-border ul li.menu-auto{
+	padding: initial;
+	font-weight: 900;
+}
+.menu-nav .menu-border ul li .ascending{
+    background: url(../images/shop_background_img.png) no-repeat 0 -11px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 7px;
+    height: 8px;
+    margin-left: 6px;
+}
+.menu-nav .menu-border ul li em{
+	position: relative;
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	padding: 2px;
+	border-radius:50% ;
+	margin-right: 5px;
+	border: 1px solid #969896;
+}
+.menu-nav .menu-border ul li .circularkey{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	border-radius:50% ;
+	width: 6px;
+	height: 6px;
+	background: #969896;
+	
+}
+/*商品列表*/
+.cantian-right .produst{
+	overflow: hidden;
+}
+.cantian-right .produst-list{
+	margin-top: 20px;
+	overflow: hidden;
+	padding-bottom: 75px;
+}
+
+.produst-list ul li{
+	position: relative;
+	float: left;
+	margin-bottom: 16px;
+	margin-right: 20px;
+	padding: 7px;
+    width: 219px;
+    height: 312px;
+    border: 1px dotted #ddd;
+}
+.produst-list ul li:nth-child(4n){
+	margin-right: initial;
+}
+.produst-list ul li a {
+    font-family: arial, "宋体";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.produst-list ul li a img {
+    height: 218px;
+	width: 218px;
+    display: inline-block;
+}
+.produst-list ul li a p{
+	text-align: left;
+}
+.produst-list ul li a p .produst-price{
+	font-weight:900;
+    font-size: 16px;
+    color: #cc3333;
+    line-height: 21px;
+    margin-right: 40px;
+}
+.produst-list ul li a p .produst-comment{
+    font-size: 14px;
+   color: #6b6c6e;
+    display: inline-block;
+    line-height: 20px;
+}
+.produst-list ul li a p .produst-comment em {
+    color: #cc3333;
+    font-size: 12px;
+    padding: 0 5px;
+}
+.produst-list  ul li a .produst-name{
+    font-size: 14px;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.produst-list ul li a .product-shop{
+	font-size: 12px;
+}
+.produst-list .produst-active{
+	height: 50px;
+    padding-top: 5px;
+    display: none;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    width: 226px;
+    position: absolute;
+    left: -1px;
+    top: 326px;
+    border: 1px solid #c4354c;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+.produst-list ul li:hover{
+	border: 1px solid #c4354c;
+}
+.produst-list ul li:hover a{
+	color: #666;
+}
+.produst-list .cata-addcart{
+	overflow: hidden;
+	padding: 5px;
+	font-size: 14px;
+	color: #FFFFFF;
+	background: #CC0202;
+	position: absolute;
+	top: 284px;
+	left: 140px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.produst-list ul li:hover .produst-active{
+	display: block;
+}
+.produst-active img{
+	margin-right:3px ;
+}
+.produst-list .produst-page{
+	overflow: hidden;
+	height: 50px;
+}
+.produst-page ul{
+	display: inline-block;
+	width: 400px;
+	overflow: hidden;
+	float: right;
+}
+.produst-page ul li{
+	border-radius: 3px;
+	padding: 5px 12px;
+	border: 1px solid #969896;
+	margin:10px 3px 0px 0px;
+	float: left;
+}
+.produst-page .page-right{
+	float: right;
+	margin-right: 50px;
+}
+.page-right i{
+	display: inline-block;
+	margin: 0px 10px;
+	line-height: 50px;
+}
+.page-right input{
+	 border: 1px solid #999;
+	border-radius: 5px;
+	height: 25px;
+	width: 50px;
+	text-align: center;
+}

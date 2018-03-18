@@ -1,0 +1,499 @@
+html{
+	font-size: 625%;
+}
+body{
+	font-size: .16rem;
+	 background-color: #f0f0f0;
+	 padding-bottom:  0.5rem;
+}
+
+/*头部*/   
+.navbar {
+    height: .5rem;
+    color: #fff;
+    background: #06c1ae;
+   	display: flex;
+    position: relative;
+    z-index: 30;
+}
+.nav_wrap_left{
+	height: .5rem;
+	line-height: .5rem;
+	width: .45rem;
+	text-align: center;
+}
+.nav_wrap_left a{
+	color: #fff;
+	font-size: .3rem;
+	font-weight: 900;
+}
+.navbar .nav_header{
+	display: flex;
+    flex: 1;
+    font-size: .18rem;
+    line-height: .5rem;
+    justify-content: center;
+}
+.navbar .mine{
+	display: flex;
+}
+.mine a{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	font-size: .12rem;
+	color: #fff;
+	width: .47rem;
+	
+}
+.mine a i{
+	font-size: .2rem;
+}
+
+
+/*广告图*/
+.banner{
+	height: 1.6rem;
+	border-bottom: 1px solid #eee;
+}
+.banner img{
+	width: 100%;
+	height: 1.6rem;
+}
+
+
+/*店铺星级*/
+.list_info{
+	display: flex;   
+    flex-direction: column;
+   	background: #fff;
+    border-bottom: 1px solid #E5E5E5;  
+}
+.list_info .pro_title{
+	font-size: .16rem;
+    color: #333;
+    line-height: .3rem;
+    padding-left: .05rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list_info .pro_price{
+	display: flex;	
+	font-size: .12rem;
+	color: #666;
+	line-height: .25rem;
+	padding-left: .05rem;
+	position: relative;
+}
+.list_info .pro_price .xing{
+	font-size: .12rem;
+	color: orange;
+}
+.list_info .pro_price p{
+	padding-left: .05rem;
+}
+
+/*店铺地址*/
+.address{
+	display: flex;
+	align-items: center;
+	background: #fff;
+	height: .67rem;
+}
+.addr_pro{
+	display: flex;
+	align-items: center;
+}
+.addr_pro .addr{
+	font-size: .18rem;
+	color: #666;
+	padding-left: .05rem;
+}
+.addr_pro em{
+	font-size: .14rem;
+	color: #666;
+	width: 88%;
+}
+.addr_pro .phone{
+	width: .6rem;
+	height: .39rem;
+	text-align: center;
+    line-height: .39rem;
+    border-left: 1px solid #ccc;
+}
+.addr_pro .phone .tel{
+	font-size: .18rem;
+	color: #06c1ae;
+}
+
+/*APP*/
+.app_bar{
+	background: #fff;
+	border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .1rem;
+}
+.app_bar .app{
+	display: flex;
+	align-items: center;
+	line-height: .38rem;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	position: relative;
+}
+.app_bar .app i{
+	font-size: .14rem;
+	color: #666;
+	padding-left: .1rem;
+}
+.app_bar .app em{
+	position: absolute;
+	right: .05rem;
+	font-size: .14rem;
+	color: #06c1ae;
+}
+.app_bar .buy{
+	padding-left: .1rem;
+	font-size: .14rem;
+	color: #666;
+	line-height: .38rem;
+}
+.buy i{
+	color: #ff6767;
+	padding-right: .05rem;
+}
+
+
+/*代金券*/
+.gold{
+	border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .1rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    min-height: 2.5rem;
+    position: relative;
+}
+.gold .guess_con{
+	padding-left: .1rem;
+}
+.gold .guess_con dt{
+	font-size: .16rem;   
+    color: #333;
+    line-height: .4rem;
+    border-bottom: 1px solid #ccc;
+}
+.gold .guess_con dt i{
+	color: #fd9d21;
+	padding-right: .05rem;
+}
+.gold .guess_con dd{
+	border-bottom: 1px solid #eee;
+}
+.gold .guess_con dd a{
+	padding: .14rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+.gold .guess_con dd a .guess_pic img{
+	width: .9rem;
+	height: .9rem;
+}
+.gold .guess_con dd a .product_list{
+	display: flex;
+	flex:1;
+	flex-direction: column;
+	padding-left: .1rem;
+	position: relative;
+}
+.gold .product_list .shop{
+    margin-bottom: .05rem;
+    font-size: .15rem;
+    color: #333;
+    margin-bottom: .5rem;
+}
+
+.gold .product_list .list_price{
+    font-size: .18rem;
+    color: #06c1ae;
+    font-weight: 900;
+}
+.gold .product_list .list_price i{
+	font-size: .14rem;
+	font-weight: 100;
+}
+.gold .product_list .city_price{
+    font-size: .12rem;
+    color: #666;
+}
+.gold .product_list .sale_count{
+    font-size: .12rem;
+    color: #666;
+    position: absolute;
+    right:.08rem;
+    bottom: .07rem;
+}
+
+
+/*评论*/
+.all_comment{
+	border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .1rem;
+    background-color: #fff;
+}
+.comment_con{
+	padding-left: .1rem;
+	padding-right: .1rem;
+}
+.all_comment .pro_price{
+	display: flex;
+	font-size: .12rem;
+    color: #666;
+    line-height: .3rem;   
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.pro_price .xing,.count {
+    font-size: .14rem;
+    color: orange;   
+}
+.pro_price .count {
+    padding-left: .1rem;
+}
+.pro_price p {
+    position: absolute;
+    right: .1rem;
+    font-size: .16rem;
+}
+
+.all_comment .pro_comment{
+	display: flex;
+	flex-wrap: wrap;
+}
+.pro_comment li{
+	border:1px solid #FDB338;
+	border-radius: .05rem;
+	margin: .1rem .03rem 0;
+}
+.pro_comment li a{
+	font-size: .14rem;
+	color: #FDB338;
+	padding:.05rem .1rem;
+}
+.pro_comment .bad{
+	border:1px solid #666;
+}
+.pro_comment .bad a{
+	color: #666;
+}
+
+/*商家评论*/
+.human_comment{
+	margin-top: .1rem;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.face_card{
+	display: flex;
+	height: 0.5rem;
+    align-items: center;
+}
+.face_card img{
+	width: .37rem;
+	height: .37rem;
+}
+.face_card .human_con{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.face_card .human_name{
+	font-size: .12rem;
+    color: #666;
+}
+
+.face_card .pro_xing{
+	display: flex;
+	font-size: .12rem;
+    color: #666;
+    line-height: .2rem;       
+    position: relative;
+}
+.pro_xing .xing{
+    font-size: .14rem;
+    color: orange;   
+}
+.pro_xing .date {
+	font-size: .12rem;
+    color: #666;   
+    padding-left: .1rem;
+}
+.pro_xing p {
+    position: absolute;
+    right: .1rem;
+    font-size: .16rem;
+    bottom: -.05rem;
+}
+
+.human_comment .des_comment{
+	display: flex;
+	flex: 1;
+	font-size: .14rem;
+	color: #333;
+}
+.human_comment .comment_tu{
+	display: flex;
+	margin-top: .05rem;
+}
+.comment_tu a{
+	height: .55rem;
+    width: .55rem;
+    padding-right: .05rem;
+}
+.comment_tu img{
+	width: 100%;
+	height: 100%;
+}
+
+.human_comment .reply{
+	display: flex;
+	flex-direction: column;
+	color: #666;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    background-color: #F7F7F6;
+    position: relative;
+    border-radius: .03rem;
+}
+.human_comment .reply i{
+	font-size: .12rem;
+	color: #666;
+	padding-left: .1rem;
+	line-height: .2rem;
+	border-bottom: 1px solid #ccc;
+}
+.human_comment .reply em{
+	font-size: .14rem;
+	padding-left: .1rem;
+	line-height: .2rem;
+	color: #ED852C;
+}
+
+
+/*查看评价*/
+.all_info{
+	height: .4rem;  
+    display: flex;
+    box-sizing: border-box;
+   background: #fff;
+    position: relative;
+}
+.all_info a{
+	display: flex;
+	align-items: center;
+	padding: 0 .1rem;
+	font-size: .14rem;
+    color: #06c1ae;
+}
+.all_info a i{
+	position: absolute;
+	right: .2rem;
+    bottom: .1rem;
+    font-weight: 900;
+}
+
+/*商家描述*/
+.shop_des{
+	background: #fff;
+	margin-top: .1rem;
+}
+.shop_des .shop_con{
+	padding-left: .1rem;
+	
+}
+.shop_con .shop{
+	display: flex;
+	font-size: .16rem;
+	color: #666;
+	line-height: .3rem;
+	border-bottom: 1px solid #eee;
+}
+.shop_con .info_shop{
+	display: flex;
+	border-bottom: 1px solid #eee;
+}
+.shop_con .info_shop i{
+	width: .8rem;
+}
+.shop_con .info_shop i,b{
+	font-size: .14rem;
+	color: #666;
+	line-height: .3rem;
+}
+
+/*附近推荐*/
+.guess_wrapper{
+	border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .1rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    min-height: 2.5rem;
+    position: relative;
+}
+.guess_wrapper .guess_con{
+	padding-left: .1rem;
+}
+.guess_con dt{
+	font-size: .16rem;   
+    color: #333;
+    line-height: .4rem;
+    border-bottom: 1px solid #ccc;
+}
+.guess_con dd{
+	border-bottom: 1px solid #eee;
+}
+.guess_con dd a{
+	padding: .14rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+.guess_con dd a .guess_pic img{
+	width: .9rem;
+	height: .9rem;
+}
+.guess_con dd a .product_list{
+	display: flex;
+	flex:1;
+	flex-direction: column;
+	padding-left: .1rem;
+	position: relative;
+}
+.product_list .shop{
+    margin-bottom: .05rem;
+    font-size: .15rem;
+    color: #333;
+}
+.product_list .pro_title{
+    margin-bottom: .25rem;
+    font-size: .12rem;
+    color: #666;
+}
+.product_list .list_price{
+    font-size: .18rem;
+    color: #06c1ae;
+}
+.product_list .city_price{
+    font-size: .12rem;
+    color: #666;
+}
+.product_list .sale_count{
+    font-size: .12rem;
+    color: #666;
+    position: absolute;
+    right:.08rem;
+    bottom: .06rem;
+}

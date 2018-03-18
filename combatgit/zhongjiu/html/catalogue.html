@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>中酒网--商品列表</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/catalogue.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../js/jquery.fly.min.js"></script>
+		<script type="text/javascript" src="../js/base.js"></script>
+		<script type="text/javascript" src="../js/catalogue.js"></script>
+	</head>
+	<body>
+		<div class="top-nav-warrp">
+			<div class="top-nav">
+				<em>您好，欢迎来到 <i class="top-name">中酒网！</i><a href="#" class="top-color">去买家中心</a></em>
+				<ul class="top-login">
+					<li></li>
+                	<li></li>
+				</ul>
+				<div class="top-msg">
+					<dl>
+						<dt><em class="ico_center"></em><a href="#">　我的中酒网</a><i></i></dt>
+						<dd>
+							<ul>
+								<li><a href="#">已买到的商品</a></li>
+								<li><a href="#">我关注的商品</a></li>
+								<li><a href="#">我关注的店铺</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt><em class="ico_service"></em><a href="#">卖家中心</a><i></i></dt>
+						<dd>
+							<ul>
+								<li><a href="#">商家入驻</a></li>
+								<li><a href="#">卖出商品</a></li>
+								<li><a href="#">管理商品</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="top-msg-dl">
+						<dt><em class="ico_order"></em><a href="#">网站导航</a><i></i></dt>
+						<div class="top-msg-nav">
+							<ul>
+								<li>
+									<h4>买酒</h4>
+									<div>
+										<a href="#">白酒</a>
+										<a href="#">葡萄酒</a>
+										<a href="#">洋酒</a>
+										<a href="#">黄酒</a>
+										<a href="#">整箱</a>
+										<a href="#">婚庆</a>
+									</div>
+								</li>
+								<li class="top-msg-bgc">
+									<h4>品牌</h4>
+									<div>
+										<a href="#">茅台</a>
+										<a href="#">五粮液</a>
+										<a href="#">洋河</a>
+										<a href="#">天佑德</a>
+										<a href="#">红星</a>
+										<a href="#">牛栏山</a>
+										<a href="#">泸州老窖</a>
+										<a href="#">拉菲</a>
+										<a href="#">张裕</a>
+									</div>
+								</li>
+								<li>
+									<h4>其他</h4>
+									<a href="#">帮助中心</a>
+									<a href="#">品牌资讯</a>
+									<a href="#">品牌导航</a>
+									<a href="#">新品推荐</a>
+									<a href="#">积分商城</a>
+									<a href="#">APP下载</a>
+								</li>
+								<li class="top-msg-bgc">订购热线：400-798-9999</li>
+							</ul>
+						</div>
+					</dl>
+					<dl>
+						<dt><a href="#">APP</a></dt>
+						<dd class="top-app">
+							<img src="../images/mob.jpg"> 
+							<p>扫描二维码</p>
+							<b>下载手机客户端</b>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="#">微信端</a></dt>
+						<dd style="padding: 10px 0;">
+							<img src="../images/wx.jpg"> 
+						</dd>
+					</dl>
+					<dl class="top-number">
+						<dt><a href="#">订购热线：400-798-9999</a></dt>
+					</dl>
+				</div> 
+			</div>
+		</div>
+		<div class="catalogue-tophead"></div>
+		<div class="catalogue-nav"></div>
+		<div class="catalogue-banner">
+			<img src="../images/Brnner.jpg" />
+		</div>
+		<div class="catalogue-cantian-warrp">
+			<div class="catalogue-cantian">
+				<div class="cantian-top">
+					<ul>
+						<li style="font-weight: 700;"><a href="#">首页　></a></li>
+						<li><a href="#">全部　></a></li>
+						<li><a href="#">白酒　></a></li>
+						<li><a href="#">泸州老窖　x</a></li>
+					</ul>
+					<p>共<strong class="number">99</strong>个商品</p>
+				</div>
+				<div class="cantian-bottom">
+					<div class="cantian-left">
+						<div class="menu">
+							<h1>所有类目</h1>
+							<div class="menu-title">
+								<h3><em></em><a href="">酒类</a></h3>
+								<ul class="menu-list">
+									<li>白酒</li>
+								</ul>
+							</div>
+						</div>
+						<div class="list-best">
+							<h2>热卖单品</h2>
+							<ul id="aglist">
+								<!--<li>
+									<a href="#">
+										<img src="../images3/baijiu-ag-1.png" />
+										<p class="name-line">52°洋河海之蓝 480ml</p>
+										<p class="price-line">￥  156</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="" />
+										<p class="name-line">52°洋河海之蓝 480ml</p>
+										<p class="price-line">￥  156</p>
+									</a>
+								</li>-->
+							</ul>
+						</div>
+						<div class="see-more">
+							<h2 style="font-weight: 100;">购买了此类商品的用户还浏览</h2>
+							<ul id="seemore">
+								<!--<li>
+									<a href="#">
+										<img src="../images/best-1.png" />
+										<p class="see-name">52°洋河海之蓝 480ml</p>
+										<p>
+											<span class="see-price">￥  156</span>
+											<span class="see-comment">品论数<em>13672</em></span>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="../images/best-1.png" />
+										<p class="see-name">52°洋河海之蓝 480ml</p>
+										<p>
+											<span class="see-price">￥  156</span>
+											<span class="see-comment">品论数<em>13672</em></span>
+										</p>
+									</a>
+								</li>-->
+							</ul>
+						</div>
+					</div>
+					<div class="cantian-right">
+						<div class="cantian-menu">
+							<div class="catalogue-logo">
+								<span>品牌：</span>
+								<ul id="brandlist">
+									<!--<li><a href="#"><img src="../images/logo_11.jpg"></a>
+										<div class="logomask">中酒自营</div>
+									</li>
+									<li><a href="#"><img src="../images/logo_11.jpg"></a></li>
+									<li><a href="#"><img src="../images/logo_11.jpg"></a></li>-->
+								</ul>
+							</div>
+							<div class="catalogue-type">
+								<div class="type-item">
+									<ul>
+										<li>场地：</li>
+										<li>香型：</li>
+										<li>适用：</li>
+										<li>度数：</li>
+									</ul>
+								</div>
+								<div class="type-list">
+									<ul id="fieldlist"></ul>
+									<ul id="flavorlist"></ul>
+									<ul>
+										<li>聚会用酒</li>
+										<li>商务用酒</li>
+										<li>礼节拜访</li>
+										<li>婚庆用酒</li>
+									</ul>
+									<ul style="border: none;">
+										<li>52%Vol.</li>
+										<li>46%Vol.</li>
+										<li>35%Vol.</li>
+										<li>38%Vol.</li>
+										<li>50%Vol.</li>
+										<li>53%vol.</li>
+										<li>46%Vol.</li>
+										<li>58%Vol.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="menu-nav">
+							<div class="menu-border">
+								<ul id="paixu">
+									<li class="menu-auto">默认</li>
+									<li>价格<i class="ascending"></i></li>
+									<li>成交量<i class="ascending"></i></li>
+									<li>上架时间</li>
+									<li><em><i class="circularkey"></i></em>中酒自营</li>
+								</ul>
+							</div>
+						</div>
+						<div class="produst">
+							<div class="produst-list">
+								<ul id="productlist">
+									<!--<li>
+										<a href="#">
+											<img src="../images/product-1.png" />
+											<p>
+												<span class="produst-price">￥  156</span>
+												<span class="produst-comment">成交 <em>13672</em> 笔</span>
+											</p>
+											<p class="produst-name">52°洋河海之蓝 480ml</p>
+											<p class="product-shop">中酒自营</p>
+										</a>
+										<div class="produst-active">
+											<img src="../images/product-1-1.png">
+											<img src="../images/product-1-1.png">
+											<img src="../images/product-1-1.png">
+											<img src="../images/product-1-1.png">
+										</div>
+										<div class="cata-addcart">
+											加入购物车
+										</div>
+									</li>-->
+								</ul>
+							</div>
+							<div class="produst-page">
+								<div class="page-right">
+									<i>共12页</i>
+									到 第 <input type="text" value="1"/> 页
+									<input type=" button" value="确定" style="margin: 0px 3px;background: #FAFAFA;"/>
+								</div>
+								<ul>
+									<li>上一页</li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>下一页</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sidebar-warrp"></div>
+		<div class="catalogue-footer"></div>
+	</body>
+</html>

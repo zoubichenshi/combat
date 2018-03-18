@@ -1,0 +1,212 @@
+html{
+	font-size: 625%;	
+}
+body{
+	font-size: .16rem;
+	background-color: #f0f0f0;
+	padding-top: .45rem;
+	padding-bottom:  0.5rem;
+}
+
+/*头部*/
+.navbar{
+	height: .45rem;
+    background: #fafafa;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    display:flex; 
+    align-items: center;
+}
+.nav_wrap_left{
+	height: .45rem;
+	line-height: .45rem;
+	width: .45rem;
+	text-align: center;
+}
+.nav_wrap_left a{
+	color: #06c1ae;
+	font-size: .2rem;
+	font-weight: 900;
+}
+
+.go_search{
+	display: flex;
+	align-items: center;
+	position: relative;
+	flex: 1;
+	height: .3rem;	
+	line-height: .3rem;
+}
+.navbar .search{
+    border-radius: .15rem;
+    background: #EBECED;
+    border: 0;
+    outline: none;  
+    padding-left: 0.5rem;
+    color: #999;
+    height: 100%;
+    width: 100%;
+}
+.go_search .mirro{
+	position: absolute;
+	left: 0.2rem;	
+	color: #999;
+	font-weight: 900;
+}
+
+.navbar .mine{
+	width: .45rem;
+}
+.mine a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: .2rem;
+	color: #06c1ae;
+	font-weight: 900;	
+}
+
+/*分类列表*/
+.swiper-container{
+	background: #fff;
+    margin-bottom: .1rem;
+}
+.swiper-container .swiper-wrapper{
+	height: 1.8rem;
+}
+.swiper-wrapper .list_con{
+	display: flex;
+	flex-wrap: wrap;
+}
+.list_con li{
+	width: 25%;
+	text-align: center;
+	box-sizing: border-box;
+}
+.list_con li a{
+	display: flex;
+	flex-direction: column;	
+    height: .8rem;
+}
+.list_con li .meishi{
+	display: block;
+    margin: auto;
+    margin-bottom: .07rem;
+    width: .4rem;
+    height: .4rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .4rem;
+    font-size: .25rem;
+    color: #fff;
+	
+}
+.list_con li .icon-desc{
+    font-size: .12rem;
+    color: #666;
+}
+
+
+/*商品二级菜单分类*/
+.list_cate{
+	display: flex;
+	align-items: center;
+    background: #FFF;
+    border-bottom: 1px solid #d8d8d8;
+    height: .42rem;
+    line-height: .42rem;
+   	text-align: center;
+}
+.list_cate a{
+	width: .93rem;
+	color: #666;
+}
+.pro_wrapper{
+	background: #fff;
+}
+
+.pro_con .proinfo{
+	display: flex;	
+}
+.proinfo .top_pro{
+	display: flex;
+	
+}
+.proinfo .top_pro img{
+	height: .8rem;
+    width: .8rem;
+}
+.proinfo .list_info{
+	display: flex;   
+    flex-direction: column;
+    margin-left: .09rem;
+    border-bottom: 1px solid #E5E5E5;  
+}
+.proinfo .list_info .pro_title{
+	font-size: .16rem;
+    color: #333;
+    line-height: .3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list_info .pro_price{
+	display: flex;	
+	font-size: .12rem;
+	color: #666;
+	line-height: .2rem;
+	position: relative;
+}
+.list_info .pro_price .xing{
+	font-size: .12rem;
+	color: orange;
+}
+.list_info .pro_price p{
+	position: absolute;
+	right: 0.5rem;
+}
+.list_info .cate_wrapper{
+	display: flex;
+	font-size: .12rem;
+    color: #666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;   
+}
+.cate_wrapper .cate_list{
+	display: block;
+	margin:0 .05rem;
+	color: rgb(190, 158, 77);
+    background-color: rgb(251, 244, 228);
+	border-radius: .05rem;
+}
+
+
+.bottom_pro{
+	border-bottom: 1px solid #eee;
+}
+.bottom_pro .tuan,.onsale,.buy_pro{
+	display: flex;
+}
+ .sale_much{
+	width: .8rem;
+    height: .2rem;
+    color: #FF8226;
+    text-align: right;
+    margin-right: .09rem;
+}
+.bottom_pro  span{
+	font-size: .12rem;
+	color: #666;
+	line-height: .2rem;
+}
+.bottom_pro span .tuan_pic{
+	font-size: .16rem;
+	color: #06C1AE;
+	padding-right: .05rem;
+}
+

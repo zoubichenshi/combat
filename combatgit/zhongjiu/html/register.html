@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>中酒网--注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/register.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="../js/gVerify.js"></script>
+		<script type="text/javascript" src="../js/register.js"></script>
+	</head>
+	<body>
+		<div class="register-warrp">
+			<div class="register-top">
+				<h1 class="register-logo">
+					<a href="#"><img src="../images/logo.png"></a>
+				</h1>
+				<i class="register">欢迎注册</i>
+				<p class="register-login">我已经注册，现在就<a href="#">　登录</a></p>
+			</div>
+			<div class="register-bottom">
+				<div class="register-center">
+					<div class="register-table">
+						<div class="table-top">
+							<h1>新用户注册<i class="down"></i></h1>
+						</div>
+						<div class="register-form">
+							<form>
+								用户名　 ：<input type="text" placeholder="请输入手机号码" id="username"/><span class="num-hint"></span><br />
+								<div class="code">
+									图形验证 ： <input type="text" id="code_input" value="" placeholder="请输入验证码"/>
+									<div id="v_container"><span class="code-hint"></span></div>
+								</div>
+								设置密码 ：<input type="text" placeholder="请输入密码" id="pwd"/><span class="pwd-hint"></span>
+								<div class="strength">
+									<span>弱</span><span>中</span><span>强</span>
+								</div>
+								确认密码 ：<input type="text" placeholder="请再次输入密码" id="again"/><span class="true-hint"></span><br />
+								　　邮箱 ：<input type="text" placeholder="请再次输入常用邮箱号" id="email"><span class="email-hint"></span><br />
+								<input type="checkbox" id="check"/><em class="check-em">我接受 <a href="#">《邮乐用户协议》</a>及其相关的条款和条件</em><br /> 
+								<input type="button" id="register-but" value="注册">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

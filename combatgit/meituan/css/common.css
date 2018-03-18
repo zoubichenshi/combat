@@ -1,0 +1,151 @@
+/*底部区域*/
+.footer{
+	margin-top: .15rem;
+    padding: 0 .2rem .4rem;
+    background-color: #f0efed;
+}
+.footer .footer_bar{
+	font-size: .28rem;
+    margin-bottom: .2rem;
+    display: flex;
+    position: relative;
+}
+.footer_bar .login,.register{
+	text-align: center;
+    height: .3rem;
+    width: .6rem;
+    line-height: .3rem;
+    border: 1px solid #06c1ae;
+    border-radius: .03rem;
+}
+.footer_bar .login{
+	margin-right:.1rem;
+}
+.footer_bar .login a{
+	color: #06c1ae;
+	font-size: .14rem;
+	display: block;   
+}
+
+.footer_bar .register a{
+	color: #06c1ae;
+	font-size: .14rem;
+	display: block;   
+}
+.footer_bar .pull_right{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right:0;
+	
+}
+.footer_bar .pull_right span{
+	font-size: .14rem;
+	color: #333;
+}
+.footer_bar .pull_right .city{
+	text-align: center;
+    height: .3rem;
+    width: .7rem;
+    line-height: .3rem;
+    border: 1px solid #06c1ae;
+    border-radius: .03rem;
+    margin-left: .1rem;
+}
+.pull_right .city a{
+	color: #06c1ae;
+	font-size: .14rem;
+	display: block;  
+}
+
+
+.footer .footer_nav{
+	margin-bottom: .09rem;
+}
+.footer_nav ul{
+	display: flex;
+	font-size: .12rem;
+}
+.footer_nav ul li{
+	flex: 1;
+	border-right: 1px solid #666;
+    text-align: center;
+}
+.footer_nav ul li a{
+	font-size: .12rem;
+	color: #06c1ae;
+}
+
+.footer .footer_links{
+	font-size: .12rem;
+	color: #666;
+    margin: .15rem .1rem;
+    text-align: center;
+}
+.footer .footer_links a{
+	font-size: .12rem;
+	color: #06c1ae;
+	padding-right: .08rem;
+}
+.footer .footer_copyright{
+	font-size: .12rem;
+	color: #666;
+    text-align: center;
+    position: relative;
+}
+.footer_copyright .hr{
+	content:'';
+	width: 100%;
+	position: absolute;
+	top:50%;
+	border-top:1px solid #ccc;
+}
+.footer_copyright .footer_copyright_tet{
+	position: relative;
+    padding: 0 .15rem;
+    background-color: #f0efed;
+}
+.footer_copyright_tet a{
+	color: #666;
+}
+
+
+/*最底部*/
+.pop{
+	display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    height: 0.7rem;
+    width: 100%;
+}
+.pop .logo_pic{
+	padding-left: .22rem;
+}
+.pop .logo_pic img{
+	width:.5rem;
+    height: .5rem;
+    display: block;
+}
+.pop .pop_tet{
+	color: #fff;
+    font-size: .14rem;  
+    padding-left: .1rem;
+}
+.pop .unload{
+    width: 0.8rem;
+    height: .35rem;
+    line-height: .35rem;
+    text-align: center;
+    border:1px solid #06c1ae;
+   	margin-left: .2rem;
+}
+.pop .unload a{
+	display: block;
+	font-size: .14rem;
+	color: #06c1ae;
+}

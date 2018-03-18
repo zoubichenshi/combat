@@ -1,0 +1,681 @@
+
+/*轮播图*/
+.banner-warrp{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.banner-warrp .banner{
+	height: 488px;
+	overflow: hidden;
+	position: relative;
+}
+.banner .list1 li{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.banner .list1 li img{
+	margin-left: -365px;
+}
+.banner .list2{
+	position: absolute;
+	left:50%;
+	margin-left: -75px;
+	bottom: 10px;
+	
+}
+.banner .list2 li{
+	width: 15px;
+	height: 15px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	margin-right: 20px;
+	float: left;
+	cursor:pointer;
+}
+.banner .list2 li.list2-active{
+	width: 12px;
+	height: 12px;
+	background: inherit;
+	border-radius: 50%;
+	border: 3px solid #FFFFFF;
+}
+.banner .prev-page,.banner .next-page{
+	position: absolute;
+    width: 30px;
+    height: 64px;
+    z-index: 3;
+    background: #000;
+    top: 50%;
+    display: none;
+}
+.banner .prev-page{
+    left: 50%;
+    margin-left: -370px;
+    background: url(../images/prev-next-icon.png) no-repeat -79px 0;
+}
+.banner .next-page{
+    right: 50%;
+    margin-right: -510px;
+    background: url(../images/prev-next-icon.png) no-repeat -116px 0;
+}
+/*热销爆款*/
+.discount-warrp{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.discount-warrp .discount{
+	overflow: hidden;
+}
+.discount .discount-top{
+	height: 40px;
+	border-bottom: 1px solid #ececec;
+}
+.discount .discount-top ul li{
+	float: left;
+	height: 35px;
+	cursor: pointer;
+}
+.discount .discount-top ul li b{
+	font-weight:100 ;
+	line-height: 35px;
+	padding: 0 60px;
+	font-size: 16px;
+	margin-top: 5px;
+	color: #000001;
+	display: block;
+	background: #FFFFFF;
+}
+.discount .discount-top ul li b.discount-top-active{
+	height: 39px;
+	margin-top: 0px;
+	border-top:2px solid #cc0202 ;
+	border-left:1px solid #ececec ;
+	border-right:1px solid #ececec ;
+	color: #cc0202;
+}
+.discount .discount-btfix{
+	overflow: hidden;
+	height: 490px;
+	border-bottom: 1px solid #BBBBBB;
+	position: relative;
+}
+.discount .discount-show{
+	width: 1200px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.discount .discount-bottom{
+	margin-top: 15px;
+	overflow: hidden;
+	height: 464px;
+	position: relative;
+	/*position: absolute;
+	top: 0px;
+	left: 0px;*/
+	background: #FFF;
+}
+.discount-bottom .discount-selling{
+	overflow: hidden;
+	position:relative ;
+}
+.discount-bottom .discount-selling li{
+	width: 228px;
+	height: 220px;
+	float: left;
+	overflow: hidden;
+	margin: 6px 15px 6px 0px;
+}
+.discount-bottom .seckill-top{
+	color: #FFFFFF;
+	position: relative;
+	height: 55px;
+	background: url(../images/seckill_hd.png) repeat-x;
+	overflow: hidden;
+}
+.seckill-top .seckill-left{
+	float: left;
+}
+.seckill-top .seckill-left .timer{
+	background: url(../images/sprite.png) no-repeat 0 -40px;
+	display: inline-block;
+	width: 34px;
+	height: 40px;
+	z-index: 1;
+	position: absolute;
+	top: 10px;
+	left: 34px;
+}
+.seckill-top .seckill-left .time-down{
+	background: url(../images/sprite.png) no-repeat -154px -40px;
+	display: inline-block;
+	width: 15px;
+	height: 16px;
+	z-index: 1;
+	position: absolute;
+	top: 25px;
+	left: 325px;
+}
+.seckill-top .seckill-left b{
+	font-size: 28px;
+	line-height: 55px;
+	font-weight: 100;
+	margin:0px 17px 0px  80px;
+}
+.seckill-top .seckill-timer{
+	float: right;
+	margin-right:35px;
+	font-size: 16px;
+}
+.seckill-top .seckill-timer input{
+	width: 35px;
+    height: 37px;
+	background: #440106;
+	color: #f90013;
+	font:700 24px/37px Arial;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+}
+.seckill-top .seckill-timer .colon{
+	margin: 22px 4px 0;
+	width: 4px;
+	height: 12px;
+	font-size: 0;
+	line-height: 0;
+	display: inline-block;
+}
+.seckill-top .seckill-timer .colon i{
+	display: block;
+	width: 4px;
+	height: 4px;
+	border-radius: 100%;
+	background-color: #440106;
+}
+ .seckill-top .seckill-timer .colon i.colon-bottom{
+ 	margin:6px 0px;
+ }
+.discount-bottom .seckill-bottom{
+	width: 1200px;
+	height: 384px;
+	margin: 0 auto;
+	margin-top: 25px;
+	overflow: hidden;
+	position: relative;
+}
+.seckill-bottom .seckill-fix{
+	width: 1000px;
+	height: 384px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}	
+.discount-bottom .seckill-bottom .seckill-list{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1000px;
+	height: 384px;
+	margin: 0 auto;
+	border-bottom: 1px solid #E6E6E6;
+	overflow: hidden;
+}
+.discount-bottom .seckill-bottom .seckill-list ul{
+	height: 383px;
+	width: 1000px;
+	float: left;
+}
+.discount-bottom .seckill-bottom .seckill-list li{
+	float: left;
+	width: 220px;
+	margin:10px;
+	opacity: 0.7;
+}
+.seckill-bottom .seckill-list .list-img{
+	width: 220px;
+	height: 220px;
+	position: relative;
+	overflow: hidden;
+}
+.seckill-bottom .seckill-list .list-img img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+.seckill-bottom .seckill-list li p{
+	margin: 0 auto;
+	width: 180px;
+	height: 48px;
+	font-size:14px;
+	line-height: 24px;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.seckill-bottom .seckill-list li b{
+	font-size: 24px;
+	color: #f10214;
+	line-height: 30px;
+	padding: 0 15px 0 10px;
+}
+.seckill-bottom .seckill-list li i{
+	color: #CCCCCC;
+	font-size:14px ;
+	text-decoration: line-through;
+}
+.discount-bottom .seckill-prev,.discount-bottom .seckill-next{
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	font-size:50px ;
+	line-height: 40px;
+	font-weight: 10px;
+	border: 1px solid #3E4851;
+	color: #3E4851;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	cursor: pointer;
+}
+.discount-bottom .seckill-prev{
+	left: 40px;
+}
+.discount-bottom .seckill-next{
+	right: 40px;
+}
+/*主要内容*/
+.contain-warrp{
+	width: 1200px;
+	margin: 0 auto;
+}
+.contain-warrp .contain{
+	width: 1200px;
+	overflow: hidden;
+}
+.contain .liquor{
+	height: 722px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	padding-bottom: 23px;
+}
+.liquor .liquor-top{
+    height: 32px;
+    border-bottom: 1px solid #c9c9c9;
+}
+.liquor .liquor-top h3{
+	height: 18px;
+	width: 20%;
+	float: left;
+	line-height: 18px;
+	color: #3d4048;
+	font-size: 16px;
+	border-left: 4px solid #f00f34;
+	padding-left: 12px;
+	font-weight: 900;
+}
+.liquor .liquor-top ul {
+    float: right;
+    line-height: 32px;
+    margin-right: 20px;
+}
+.liquor .liquor-top ul li {
+    float: left;
+    font-size: 16px;
+    color: #2c2c2c;
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    height: 32px;
+    position: relative;
+}
+.liquor .liquor-top ul li.top-active s{
+    display: block;
+}
+.liquor .liquor-top ul li s {
+    width: 10px;
+    height: 6px;
+    position: absolute;
+    top: 27px;
+    right: 42%;
+    background-image: url(../images/himall_web_add.png);
+    background-repeat: no-repeat;
+    display: none;
+}
+.liquor-bottom{
+	margin-top:10px ;
+	width: 1200px;
+	overflow: hidden;
+	padding-top: 10px;
+}
+.liquor-bottom .liquor-left{
+	float: left;
+	width: 230px;
+	height: 450px;
+	position: relative;
+	cursor: pointer;
+	margin-right:10px ;
+}
+.liquor-left .liquor-piture{
+	width: 230px;
+	height: 450px;
+}
+.liquor-left .liquor-piture a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.liquor-left .liquor-table{
+	width: 230px;
+	height: 124px;
+	position: absolute;
+	left: 0;
+	bottom: 185px;
+	overflow: hidden;
+}
+.liquor-table table {
+    width: 186px;
+    height: 98px;
+    margin: 26px auto;
+}
+.liquor-table table td{
+    height: 24px;
+    width: 83px;
+    text-align: left;
+    line-height: 24px;
+    float: left;
+    overflow: hidden;
+}
+.liquor-left .liquor-logo{
+	width: 230px;
+	height: 171px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0
+}
+.liquor-logo .login-prev,.liquor-logo .login-next{
+	width: 9px;
+	height: 14px;
+	background: url(../images/Himall_web.png) no-repeat;
+	cursor: pointer;
+}
+.liquor-logo .login-prev{
+	background-position: -1351px -26px;
+	position: absolute;
+	left: 4px;
+	top: 62px;
+}
+.liquor-logo .login-next{
+	background-position: -1377px 0px;
+	position: absolute;
+	right: 4px;
+	top: 62px;
+}
+.liquor-logo .login-center{
+	width: 188px;
+	height: 142px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+.login-center .login-silde{
+	height: 142px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.login-silde .login-li{
+	width: 188px;
+	height: 142px;
+	float: left;
+	margin: 20px 0 0 0;
+}
+.login-silde .login-li ul li{
+	float: left;
+	width: 90px;
+	height: 45px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	background: #fff;
+}
+.login-silde .login-li ul li img{
+	width: 90px;
+	height: 45px;
+	vertical-align: middle;
+	display: inline;
+}
+.liquor-bottom .liquor-right{
+	float: left;
+	width: 950px;
+	height: 450px;
+	background-color: #fff;
+}
+.liquor-right ul li{
+	float: left;
+	width: 230px;
+    height: 220px;
+    position: relative;
+}
+.liquor-right ul li img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.liquor-right ul li.fore1{
+    width: 470px;
+    height: 450px;
+    margin-right: 10px;
+}
+.liquor-right img,.liquor-right a{
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+.liquor-bottom .liquor-bt-bt{
+	width: 1200px;
+	overflow: hidden;
+}
+.liquor-bt-bt ul li{
+	height: 220px;
+	width: 230px;
+	margin-top: 13px;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+.liquor-bt-bt ul li.bt-big{
+	height: 220px;
+	width: 470px;
+}
+.liquor-bt-bt ul li img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.brand-warrp{
+	width: 1200px;
+	margin: 0 auto;
+}
+.brand-warrp .brand{
+	width: 1200px;
+	overflow: hidden;
+}
+.brand .brand-top h3{
+	border-left: 4px solid #f00f34;
+	font-size: 18px;
+	color: #3d4048;
+	height: 18px;
+	line-height: 18px;
+	height: 18px;
+	width: 20%;
+	padding-left: 12px;
+	font-weight: 100;
+	margin-bottom: 15px;
+	
+}
+.brand .brand-buttom{
+	position: relative;
+	height: 380px;
+	width: 1200px;
+}
+.brand .brand-left,.brand .brand-right{
+	width: 280px;
+	height: 350px;
+	float: left;
+	cursor: pointer;
+}
+.brand .brand-left{
+	position: relative;
+}
+.brand .brand-right{
+	position: absolute;
+	top: 0px;
+	right:9px;
+}
+.brand .mask{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 280px;
+	height: 350px;
+	background: rgba(174,174,174,0.7);
+	text-align: center;
+	display: none;
+}
+.brand .mask .more{
+	font-weight: 100;
+	display: block;
+	width: 100px;
+	height: 30px;
+	padding: 10px 15px;
+	border: 1px solid #FFFFFF;
+	font-size: 20px;
+	margin-top: 50%;
+	margin-left: 25%;
+	color: #FFFFFF;
+}
+.brand .brand-left:hover .mask,.brand .brand-right:hover .mask{
+	display: block;
+}
+.brand .brand-left a,.brand .brand-left img{
+	width: 280px;
+	height: 350px;
+	display: block;
+}
+.brand .brand-right a,.brand .brand-right img{
+	width: 280px;
+	height: 350px;
+	display: block;
+}
+.brand .brand-shop{
+	position: relative;
+    width: 630px;
+    height: 347px;
+    border-top: 2px solid #f3f3f3;
+    border-bottom: 2px solid #f3f3f3;
+    float: left;
+    overflow: hidden;
+}
+.brand-shop .shop{
+	position: relative;
+	width: 550px;
+	height: 306px;
+	overflow: hidden;
+	margin: 16px auto;
+}
+.brand-shop .shop-slide{
+	height: 306px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.shop-slide .shop-slide-li{
+	width: 550px;
+    height: 306px;
+    float: left;
+}
+.shop-slide .shop-slide-li ul li{
+	width: 110px;
+	height: 100px;
+	float: left;
+}
+.shop-slide .shop-slide-li ul li a{
+    width: 111px;
+  	height: 62px;
+    margin-top: 20px;
+    display: inline-block;
+    background: url(../images/brandbg.png) no-repeat right center;
+}
+.shop-slide .shop-slide-li ul li a img{
+	 width: 100px;
+    height: 50px;
+    margin: 6px auto;
+}
+.brand-shop .shop-prev{
+    width: 26px;
+    height: 38px;
+    position: absolute;
+    background: url(../images/Himall_admin.png) no-repeat -4px 0px;
+    cursor: pointer;
+    left: 7px;
+    top: 152px;
+}
+.brand-shop .shop-next{
+	width: 26px;
+    height: 38px;
+    position: absolute;
+    background: url(../images/Himall_admin.png) no-repeat -4px -40px;
+    cursor: pointer;
+    right: 7px;
+	top: 152px;
+}
+#nav {
+	position: fixed;
+	left: 0px;
+	top: 25%;
+	border: 1px solid #ccc;
+	background: #F9F9F9;
+}
+#nav li {
+	width: 30px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	border-bottom: 1px dashed #ccc;
+	cursor: pointer;
+	position: relative;
+}
+#nav li span {
+	display: none;
+	position: absolute;
+	left: 0; top: 0;
+	width: 30px; height: 30px;
+	background: white;
+	font-size: 12px;
+}
+#nav li:hover span {
+	display: block;
+	background: #F22E00;
+	color: white;
+}
+#nav li span.active {
+	display: block;
+	color: #F22E00;
+	background: white;
+}
+
+

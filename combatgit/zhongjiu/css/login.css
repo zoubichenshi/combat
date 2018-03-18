@@ -1,0 +1,170 @@
+.login-warrp{
+	width: 100%;
+}
+.login-warrp .login-top{
+	width: 100%;
+	height: 110px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-bottom: solid 2px #F5F5F5;
+}
+
+.login-top .login-logo{
+    margin: 10px 0 0 50px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    height: 130px;
+    width: 212px;
+    float: left;
+}
+.login-top .login-logo img{
+	margin-top: 20px;
+}
+.login-top .login{
+	display: inline-block;
+	font-size: 30px;
+	padding-left:30px;
+	float: left;
+	border-left:1px solid #969896;
+	margin-top:33px;
+}
+.login-warrp .login-bottom{
+	width: 100%;
+	height:700px;
+	background: #FAFAFA url(../images/login-bg.jpg) repeat 50% 50%;
+	background-size: cover;
+}
+.login-bottom .login-center{
+	width: 100%;
+	height: 640px;
+	position: relative;
+}
+.login-center .login-table{
+	width: 460px;
+	height: 410px;
+	padding-left:30px ;
+	position: absolute;
+	top: 80px;
+	left: 220px;
+	background: #FFFFFF;
+	border:1px solid #999999 ;
+}
+.login-table .table-top{
+	width: 400px;
+	border-bottom: 1px solid #666666;
+}		     
+.table-top h1{
+	padding-bottom: 10px;
+	text-align: center;
+	width: 250px;
+	position: relative;
+	border-bottom: 3px solid #F32613;
+	margin-bottom: -1px;
+	font: 100 24px/40px "Microsoft YaHei";
+	color: #999999;
+	cursor: pointer;
+}
+.table-top h1 .down{
+    font-size: 0;
+    line-height: 0;
+    border-color: #F32613 transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+    border-width: 7px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    bottom: -15px;
+}
+.login-table .login-form{
+	width: 460px;
+	margin: 20px auto;
+	overflow: hidden;
+	font-size: 16px;
+	position: relative;
+}
+.login-form .user,.login-form .pwd{
+	margin-top: 20px;
+	position: relative;
+}
+.login-form input{
+	width: 238px;
+    height: 38px;
+    float: none;
+    font-size: 14px;
+    font-family: arial, "宋体";
+    color: #999;
+    padding-left: 50px;
+    border: 2px solid #AAAAAA;
+    position: relative;
+}
+.login-form .user .icon_user,.login-form .pwd .icon_pwd{
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    float: left;
+    background: url(../images/pwd_icons.png) 0px 0px no-repeat;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    z-index: 3;
+}
+.login-form .pwd .icon_pwd{
+    background: url(../images/pwd_icons.png) -48px 0px no-repeat;
+}
+.login-form .automatic{
+	margin-top: 20px;
+}
+#check{
+	vertical-align: middle;
+    height: 0px;
+    width: 0px;
+    padding: initial;
+}
+.automatic .check-em{
+	margin-left:8px ;
+	font-size: 14px;
+	padding-top: 10px;
+	display: inline-block;
+}
+.automatic .forgot{
+	margin-left: 127px;
+}
+#login-but{
+	text-align: center;
+	width: 285px;
+    height: 40px;
+    background: #CC0202;
+    margin: 10px 0px 0px 0px;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: initial;
+}
+.login-table .login-link{
+	height: 50px;
+	padding-left:38px ;
+}
+.login-link a{
+	margin-top:15px;
+	display: inline-block;
+	width: 35px;
+	padding: 0px 7px;
+	text-align: center;
+}
+.login-link .login-regiter{
+	width: 80px;
+	font-size:16px ;
+	color: royalblue;
+}
+.login-form .login-hint{
+	position: absolute;
+	top: 18px;
+	left: 308px;
+	display: block;
+	width: 110px;
+	height: 140px;
+	color: #E3393C;
+	font-size: 18px;
+}
